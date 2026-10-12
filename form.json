@@ -1,0 +1,156 @@
+{
+  "title": "Monthly Volunteer Report // Rapport mensuel du bénévolat",
+  "subtitle": "Please complete this form to provide updates on your volunteer experience. Your responses help us track services, support you in your role, and ensure client needs are met!Merci de remplir ce formulaire concernant votre expérience de bénévolat. Vos réponses nous aident à suivre les services fournis, à vous soutenir dans votre rôle et à assurer que les besoins des bénéficiaires sont satisfaits !",
+  "submitLabel": "Submit",
+  "description": "clicsante blood test",
+  "fields": [
+    {
+      "id": "appointment-for",
+      "label": "I want to book an appointment for",
+      "type": "radio",
+      "required": true,
+      "options": [
+        {
+          "value": "myself",
+          "label": "Myself"
+        },
+        {
+          "value": "someone-else-or-for-another-user",
+          "label": "Someone else or for another user"
+        }
+      ]
+    },
+    {
+      "id": "first-name",
+      "label": "First name",
+      "type": "alpha-full",
+      "required": true
+    },
+    {
+      "id": "last-name",
+      "label": "Last name",
+      "type": "alpha-full",
+      "required": true
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "type": "email",
+      "required": false
+    },
+    {
+      "id": "email-confirm",
+      "label": "Email Confirmation",
+      "type": "email",
+      "required": false,
+      "confirmOf": "email"
+    },
+    {
+      "id": "phone",
+      "label": "Phone",
+      "type": "split",
+      "required": true,
+      "pattern": "NNN NNN NNNN"
+    },
+    {
+      "id": "extension",
+      "label": "Extension",
+      "type": "numeric",
+      "required": false
+    },
+    {
+      "id": "terms-and-conditions",
+      "label": "I understand and accept the Terms and Conditions of Use and confirm that I am 14 years of age or older.",
+      "type": "checkbox",
+      "required": true,
+      "options": [
+        {
+          "value": "accepted",
+          "label": "I understand and accept the Terms and Conditions of Use and confirm that I am 14 years of age or older.",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "privacy-policy",
+      "label": "I understand and agree that my personal information may be disclosed in accordance with the Privacy Policy.",
+      "type": "checkbox",
+      "required": true,
+      "options": [
+        {
+          "value": "accepted",
+          "label": "I understand and agree that my personal information may be disclosed in accordance with the Privacy Policy.",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "commercial-communications",
+      "label": "I consent to receiving electronic commercial communications from Trimoz by SMS and email. These communications may include the addition of new services in your area. I understand that I may unsubscribe at any time. Trimoz reserves the right to send operational emails regarding their services.",
+      "type": "checkbox",
+      "required": false,
+      "options": [
+        {
+          "value": "accepted",
+          "label": "I consent to receiving electronic commercial communications from Trimoz by SMS and email. These communications may include the addition of new services in your area. I understand that I may unsubscribe at any time. Trimoz reserves the right to send operational emails regarding their services."
+        }
+      ]
+    }
+  ],
+  "optionSets": {
+    "provinces": [
+      {
+        "value": "AB",
+        "label": "AB – Alberta"
+      },
+      {
+        "value": "BC",
+        "label": "BC – British Columbia"
+      },
+      {
+        "value": "MB",
+        "label": "MB – Manitoba"
+      },
+      {
+        "value": "NB",
+        "label": "NB – New Brunswick"
+      },
+      {
+        "value": "NL",
+        "label": "NL – Newfoundland & Labrador"
+      },
+      {
+        "value": "NS",
+        "label": "NS – Nova Scotia"
+      },
+      {
+        "value": "NT",
+        "label": "NT – Northwest Territories"
+      },
+      {
+        "value": "NU",
+        "label": "NU – Nunavut"
+      },
+      {
+        "value": "ON",
+        "label": "ON – Ontario"
+      },
+      {
+        "value": "PE",
+        "label": "PE – Prince Edward Island"
+      },
+      {
+        "value": "QC",
+        "label": "QC – Québec"
+      },
+      {
+        "value": "SK",
+        "label": "SK – Saskatchewan"
+      },
+      {
+        "value": "YT",
+        "label": "YT – Yukon"
+      }
+    ]
+  }
+}
